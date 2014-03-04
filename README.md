@@ -1,4 +1,7 @@
-elixir-ws
-=========
+## Starting up ##
 
-Simple Elixir web socket server working with Redis
+```sh
+mix deps.get
+mix run --no-halt
+open http://localhost:8080/ws
+```

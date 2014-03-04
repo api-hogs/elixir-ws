@@ -1,0 +1,6 @@
+[ "cowboy": {:git, "git://github.com/extend/cowboy.git", "239e5e0ba7f413642aca3cf2735f0709a643fb8e", []},
+  "cowlib": {:git, "git://github.com/extend/cowlib.git", "0d4ece08a7cce90a07cf33d4edad29bc324c7d90", [ref: "0.5.1"]},
+  "eredis": {:git, "git://github.com/wooga/eredis.git", "313fce73b0fdb53f3a5f146a7adf19677b417cb5", [tag: "v1.0.6"]},
+  "gproc": {:git, "git://github.com/esl/gproc.git", "d5584145e309f2d2045260d20984742bd3065867", []},
+  "ranch": {:git, "git://github.com/extend/ranch.git", "5df1f222f94e08abdcab7084f5e13027143cc222", [ref: "0.9.0"]},
+  "redis": {:git, "git://github.com/timbuchwaldt/elixir-redis.git", "6e0375549d57b0d9f9267bce8a41ebf8265a67bb", []} ]

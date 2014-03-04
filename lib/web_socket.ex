@@ -1,0 +1,2 @@
+defmodule WebSocket do
+end

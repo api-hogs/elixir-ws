@@ -1,4 +1,4 @@
-defmodule HelloHandler do
+defmodule RedisHandler do
   @behaviour :cowboy_http_handler
 	@behaviour :cowboy_websocket_handler
   @moduledoc """

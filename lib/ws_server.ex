@@ -5,7 +5,7 @@ defmodule WebSocketServer do
 		Redis.start
     dispatch = :cowboy_router.compile([
       {:_, [
-        {'/ws',    HelloHandler, []}
+        {'/ws', RedisHandler, []}
       ]}
     ])
     :cowboy.start_http :my_http_listener, 100, [{:port, 4000}], [{:env, [{:dispatch, dispatch}]}]
